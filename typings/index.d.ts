@@ -181,7 +181,7 @@ declare namespace ReactStaticGoogleMap {
       | 'red'
       | 'white'
       | number;
-    iconURL?: any;
+    iconURL?: string | google.maps.Icon | google.maps.Symbol;
     label?: string;
     scale?: '1' | '2' | '4' | 1 | 2 | 4;
     anchor?:
