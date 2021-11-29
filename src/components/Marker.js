@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 const propTypes = {
   size: PropTypes.oneOf(['tiny', 'mid', 'small', 'normal']),
   color: PropTypes.string,
+  /**
+     * @type string|Icon|Symbol
+     */
   iconURL: PropTypes.any,
   label: PropTypes.string,
   anchor: PropTypes.string,
